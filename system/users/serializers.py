@@ -7,10 +7,15 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'email', 'password2')
+        fields = ('id', 'username', 'email', 'password', 'password2')
         extra_kwargs = {
-            'password2': {'write_only': True}
+            'password': {'write_only': True},
         }
+
+    def validate(self, data):
+        if data['password'] != data['password2']:
+            raise serializers.ValidationError("Parol noto'g'ri!")
+        return data
 
     def create(self, validated_data):
         password = validated_data.pop('password2')
