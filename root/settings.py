@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -21,7 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # apps
-    'system.users',
+    'src.users',
 
     # addition
     'rest_framework',
@@ -117,8 +117,6 @@ REST_FRAMEWORK = {
 
     'DATETIME_FORMAT': '%Y-%m-%d %H:%M:%S',
 
-    'DEFAULT_PAGINATION_CLASS': 'shared.pagination.CustomPageNumberPagination',
-    'PAGE_SIZE': 10
 }
 
 # email settings
