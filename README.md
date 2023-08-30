@@ -1,11 +1,7 @@
 # Smart EduOn
 
-EduOn createuz tomonidan har kimga, hamma joyda hayotni o'zgartiradigan ta'lim tajribalarini taqdim etish niyatida asos
-solingan.
+EduOn was founded by createuz with the vision of providing life-changing educational experiences to everyone, everywhere.
 
-Hozirda bu O'zbekiston bo'ylab million o'quvchi kelajak ko'nikmalarini o'rganish uchun yetakchi onlayn ta'lim
-platformasi.
+Currently, it is the leading online learning platform for millions of students across Uzbekistan to learn future skills.
 
-O'zbekistonning dan ortiq eng yaxshi universitetlari va soha o'qituvchilari EduOn bilan hamkorlik qilib, kurslar,
-mutaxassisliklar, sertifikatlar va diplom dasturlarini taklif qilmoqdalar.
-
+More than the best universities and teachers of the field of Uzbekistan cooperate with EduOn and offer courses, specializations, certificates and diploma programs.
